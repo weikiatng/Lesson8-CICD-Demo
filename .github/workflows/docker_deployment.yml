@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
 
 env:
-  IMAGE_NAME: weikiatng/flask-app   # Format: <dockerhub_account>/<repo>
+  IMAGE_NAME: weikiatng/test  # Format: <dockerhub_account>/<repo>
   IMAGE_TAG: ${{ github.sha }}
 
 jobs:
